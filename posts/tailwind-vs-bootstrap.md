@@ -6,6 +6,7 @@ cover_image: '/images/posts/img2.jpg'
 category: 'CSS'
 author: 'Jane Doe'
 author_image: 'https://randomuser.me/api/portraits/women/11.jpg'
+id: 6
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

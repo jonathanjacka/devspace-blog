@@ -6,6 +6,7 @@ cover_image: '/images/posts/img5.jpg'
 category: 'JavaScript'
 author: 'Jane Doe'
 author_image: 'https://randomuser.me/api/portraits/women/11.jpg'
+id: 5
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

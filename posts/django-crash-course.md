@@ -6,6 +6,7 @@ cover_image: '/images/posts/img3.jpg'
 category: 'Python'
 author: 'Sam Smith'
 author_image: 'https://randomuser.me/api/portraits/men/12.jpg'
+id: 1
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

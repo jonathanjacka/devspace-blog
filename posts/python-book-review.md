@@ -6,6 +6,7 @@ cover_image: '/images/posts/img6.jpg'
 category: 'Python'
 author: 'Mike Richards'
 author_image: 'https://randomuser.me/api/portraits/men/13.jpg'
+id: 4
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

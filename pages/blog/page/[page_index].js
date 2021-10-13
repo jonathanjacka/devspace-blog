@@ -2,11 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import matter from 'gray-matter';
-import Layout from '../../../components/Layout';
-import Post from '../../../components/Post';
-import Pagination from '../../../components/Pagination';
-import { sortByDate } from '../../../utils';
-import { POSTS_PER_PAGE } from '../../../config/index';
+import Layout from '@/components/Layout';
+import Post from '@/components/Post';
+import Pagination from '@/components/Pagination';
+import { sortByDate } from '@/utils/index';
+import { POSTS_PER_PAGE } from '@/config/index';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join('posts'));
@@ -69,8 +69,8 @@ export default function BlogPage({ posts, numPages, currentPage }) {
       <h1 className='text-5xl border-b-4 p-5 font-bold'>Blog</h1>
 
       <div className='grid md:grid-cols-2  lg:grid-cols-3 gap-5'>
-        {posts.map((post, index) => (
-          <Post key={index} post={post} />
+        {posts.map((post) => (
+          <Post key={post.id} post={post} />
         ))}
       </div>
       <Pagination numPages={numPages} currentPage={currentPage} />
